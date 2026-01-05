@@ -1,0 +1,1 @@
+remove      android:background="@drawable/download"			from 5th line

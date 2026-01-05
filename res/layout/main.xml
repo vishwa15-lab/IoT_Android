@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/app_im"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+      <TextView android:id="@+id/textViewIp" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="@string/ip_address"></TextView>
+        
+<TextView android:id="@+id/textViewPorta" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="@string/port"></TextView>
+</LinearLayout>
+
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    <EditText
+        android:id="@+id/editTextIp"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:inputType="text" >
+
+        <requestFocus></requestFocus>
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPorta"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+</LinearLayout>
+  
+
+    
+   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <Button android:layout_height="wrap_content"  android:text="Red" android:id="@+id/buttonRed" android:layout_weight="0.04" android:layout_width="100dp"></Button>
+    <Button android:layout_height="wrap_content"  android:text="Green" android:id="@+id/buttonGreen" android:layout_weight="0.04" android:layout_width="100dp"></Button>
+
+    <Button
+        android:id="@+id/buttonBlue"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Blue1" >
+</Button>
+    </LinearLayout>
+       <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <Button android:layout_height="wrap_content"  android:text="Yellow" android:id="@+id/buttonYellow" android:layout_weight="0.04" android:layout_width="100dp"></Button>
+
+    <Button
+        android:id="@+id/buttonOrange"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04"
+        android:text="Blue2" >
+</Button>
+    <Button android:layout_height="wrap_content" android:onClick="" android:text="Pink" android:id="@+id/buttonPink" android:layout_weight="0.04" android:layout_width="100dp"></Button>
+    
+</LinearLayout>
+</LinearLayout>
